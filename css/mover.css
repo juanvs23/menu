@@ -1,0 +1,57 @@
+/*reseteo de las caracteristicas basicas del navegador... N/A a la funcion*/
+body, html{
+	background-color: #fff;
+	width: 100%;
+	color: #1d1d1d !important;
+	font-size: 16px;
+	font-family: "arial";
+}
+section{
+	width: 100%;
+	height: 100vh;
+	vertical-align: center;
+}
+div{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+/*barra de navegacion*/
+header{
+	width: 50px;
+	height: 100vh;
+	background-color: #103fff;
+	position: fixed;
+	vertical-align: middle !important;
+	color: #fff !important;
+	padding-top: 8rem;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-left: 1px;
+	transition: all  0.3s 0.3s;
+}
+
+nav ul li{
+	list-style-type: none !important;
+}
+nav ul li a{
+	color: #fff !important;
+	
+}
+/*clase para JS*/
+.crecer{
+	width: 180px !important ;
+	transition: all  0.3s 0.3s;
+}
+.margen{
+	margin-left:179px !important;
+	transition: all  0.3s 0.3s;	
+}
+/*fin del truco*/
+#wrapper{
+	margin-left: 50px;
+	transition: all  0.3s 0.3s;
+	padding: 15px
+}
+
